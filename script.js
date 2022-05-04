@@ -1,3 +1,4 @@
+// Price range
 (function () {
   var parent = document.querySelector('.price-slider');
   if (!parent) return;
@@ -83,5 +84,3 @@ homeMenu.addEventListener('click', e => {
     homeMenuDrop.style.display = 'none';
   }
 });
-
-// slider

@@ -82,3 +82,35 @@
   text-decoration: none;
   color: #696763;
 }
+
+@media screen and (max-width: 600px) {
+  #categoryTab article {
+    width: 86%;
+    margin: 30px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .categoryTab__rightBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .categoryTab__rightTop {
+    margin-top: 20px;
+  }
+  .categoryTab__rightTop ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #b3afa8;
+    padding: 10px;
+    font-size: 11px;
+  }
+  .category__rightTab1 img,
+  .category__rightTab2 img,
+  .category__rightTab3 img,
+  .category__rightTab4 img {
+    padding-left: 80px;
+  }
+}

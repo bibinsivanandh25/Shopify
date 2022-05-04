@@ -55,6 +55,15 @@
   color: #696763;
   font-weight: 300;
 }
+.acne_block h4,
+.grune_block h4,
+.albiro_block h4,
+.ronhill_block h4,
+.oddmolly_block h4,
+.boudestjin_block h4,
+.rosch_block h4 {
+  font-size: 14px;
+}
 .products__middleLeftCategory h4 {
   color: #696763;
   font-weight: 400;
@@ -140,6 +149,7 @@
   font-size: 13px;
 }
 
+/* price */
 .price-slider {
   width: 300px;
   margin: auto;
@@ -248,4 +258,22 @@ input[type='range']::-ms-thumb {
   border-radius: 25px;
   background: #a1d0ff;
   cursor: pointer;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  #products__topMiddle article {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .products__middleRightFeatures {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 47px;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
 }
